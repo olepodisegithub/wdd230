@@ -1,0 +1,100 @@
+body 
+{
+    font-family: 'Ubuntu', serif; 
+}
+
+header 
+{
+    display: inline-flex;
+    background-color: rgb(57, 57, 95);
+    align-items: center;
+    width:100%;
+    margin-bottom:-5px;
+}
+
+img
+{
+    padding-left: 10%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+    margin-left: auto;
+}
+
+header h1
+{
+    padding-right: 10%;
+    color: white;
+    margin-right: auto;
+}
+
+nav 
+{
+    display: block;
+    background-color: black;
+    align-items: center;
+    width:100%;
+    color: white;
+    margin-top:-5px;
+}
+
+nav a
+{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size:180%;
+}
+
+main h1
+{
+    text-align: center;
+    border-style: none none solid none;
+    border-color:gray;
+    width:100%;
+    border-width: 2px;
+}
+
+section
+{
+    border-radius: 10px;
+    border-width: 1px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color:gray;
+}
+
+section h3
+{
+    border-radius: 10px 10px 0 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: rgb(57, 57, 95);
+    margin-top: 0;
+    color: white;
+}
+
+li
+{
+    list-style: none;
+}
+
+footer
+{
+    background-color: rgb(57, 57, 95);
+    text-align: center;
+    color: white;
+}
+
+#copyright
+{
+    padding-top: 20px;
+}
+
+#lastModified
+{
+    padding-bottom: 20px;
+}
