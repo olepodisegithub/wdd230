@@ -6,15 +6,15 @@ body
 header,
 nav,
 main,
-footer {
-	max-width: 760px;
+footer 
+{
 	margin: auto auto;
 }
 
 header 
 {
     display:grid;
-    grid-template: auto auto;
+    grid-template-columns: auto auto;
     background-color: rgb(57, 57, 95);
     align-items: center;
     width:100%;
@@ -63,8 +63,9 @@ main h1
     text-align: center;
     border-style: none none solid none;
     border-color:gray;
-    width:100%;
     border-width: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 section
@@ -74,6 +75,8 @@ section
     margin-top: 10px;
     border-style: solid;
     border-color:gray;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 section h3
