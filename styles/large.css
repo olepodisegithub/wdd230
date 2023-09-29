@@ -52,10 +52,12 @@
     #copyright
     {
         grid-column: 1 / 2;
+        padding-top: 20px;
     }
 
     #lastModified
     {
         grid-column: 2 / 3;
+        padding-top: 20px;
     }
 }

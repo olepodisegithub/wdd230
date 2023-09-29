@@ -13,7 +13,6 @@ footer
 
 header 
 {
-    display:grid;
     grid-template-columns: auto auto;
     background-color: rgb(57, 57, 95);
     align-items: center;
@@ -110,5 +109,15 @@ footer
 
 #lastModified
 {
+    padding-top: 20px;
     padding-bottom: 20px;
 }
+
+#copyright::before 
+{
+    content: url(/images/flower.png);
+}
+
+
+
+
