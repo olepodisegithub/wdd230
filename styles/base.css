@@ -42,21 +42,27 @@ header h1
 
 nav 
 {
-    display: block;
-    background-color: whitesmoke;
+    background-color: rgb(197, 221, 240);
     align-items: center;
     width:100%;
     color: white;
     margin-top:-5px;
+
+    display: flex;
+	flex-direction: column;
+	list-style: none;
 }
 
 nav a
 {
-    display: block;
+    display: none;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size:180%;
+    text-decoration: none;
+	color: #fff;
+
 }
 
 main h1
@@ -105,6 +111,7 @@ footer
 
 #copyright
 {
+    text-align: center;
     padding-top: 20px;
 }
 
@@ -116,9 +123,61 @@ footer
 
 #copyright::before 
 {
-    content: url(/images/flower.png);
+    content: "🐊 ";
 }
 
+#copyright::after 
+{
+    content: url("/images/botswana-flag-icon.png");
+}
 
+#menu 
+{
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #eee;
+	color:red;
+ 	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
 
+#menu::before 
+{
+	content: "☰";
+}
 
+#menu.open::before 
+{
+	content: "X";
+}
+
+nav a:hover 
+{
+	background-color: #eef0b8;
+	color: #f64545;
+	font-weight: 700;
+}
+
+.open 
+{
+	display: block;
+}
+.open a 
+{
+	display: block;
+}
+
+.active::before 
+{
+	content: "👓 ";
+}
+
+iframe
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    max-width: 94%;
+}
