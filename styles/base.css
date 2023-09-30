@@ -181,3 +181,8 @@ iframe
     padding-top: 10px;
     max-width: 94%;
 }
+
+body h2
+{
+    color: white;
+}
