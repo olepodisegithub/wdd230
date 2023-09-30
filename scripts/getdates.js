@@ -17,7 +17,7 @@ hamButton.addEventListener('click', () =>
 });
 
 
-const tabs = document.querySelectorAll('a');
+const tabs = document.querySelectorAll('nav a');
 const tabContent = document.querySelector('h2');
 
 tabs.forEach(tab => 
