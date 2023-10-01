@@ -1,0 +1,86 @@
+
+@import url('https://fonts.google.com/specimen/Open+Sans?category=Serif,Sans+Serif&vfonly=true&preview.size=12');
+
+:root 
+{
+  --primary-color: #00AEFF;
+  --secondary-color: #4aff50;
+  --accent1-color: #d0ae8b;
+  --accent2-color: #ee70ee;
+
+  --heading-font: "IM Fell French Canon";
+  --paragraph-font: Lato, Helvetica, sans-serif;
+
+  --headline-color-on-white: #00AEFF;  
+  --headline-color-on-color: white; 
+  --paragraph-color-on-white: #4aff50; 
+  --paragraph-color-on-color: white; 
+  --paragraph-background-color: #00AEFF;
+  --nav-link-color: #00AEFF;
+  --nav-background-color: #4aff50;
+  --nav-hover-link-color: #00AEFF;
+  --nav-hover-background-color: #ee70ee;
+}
+
+body 
+{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+
+hr 
+{
+  height: 3px;
+  margin: 35px 0;
+  background: var(--accent2-color);
+}
+
+header 
+{
+  padding: 1em;
+  text-align: center;
+  color: var(--paragraph-color-on-color);
+  background-color: var(--paragraph-background-color);
+}
+header > h1, header > p
+{
+  color: var(--headline-color-on-color);
+}
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #999;
+}
+.colors td{
+  width: 25%;
+  height: 3em;
+}
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2{
+  background-color: var(--accent2-color);
+}
+p.colored {
+  background-color: var(--paragraph-background-color);
+  color: var(--paragraph-color-on-color);
+}
