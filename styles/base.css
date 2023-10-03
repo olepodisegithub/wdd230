@@ -186,3 +186,13 @@ body h2
 {
     color: white;
 }
+
+li a:active, li a:visited
+{
+	color: rgb(61, 14, 230);
+}
+
+li a:hover
+{
+	color: red;
+}
