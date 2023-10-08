@@ -184,7 +184,8 @@ iframe
 
 body h2
 {
-    color: white;
+    color: black;
+    font-size: 10px;
 }
 
 li a:active, li a:visited
