@@ -31,7 +31,7 @@ header img
 header h1
 {
     padding-right: 10%;
-    color: white;
+    color: rgb(7, 7, 7);
 }
 
 nav 
@@ -80,17 +80,19 @@ div img
 #copyright
 {
     padding-top: 20px;
+    color: rgb(7, 7, 7);
 }
 
 #lastModified
 {
     padding-top: 20px;
-
+    color: rgb(7, 7, 7);
 }
 
 #myname
 {
     padding-top: 20px;
+    color: rgb(7, 7, 7);
 }
 
 #copyright::before 
