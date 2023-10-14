@@ -30,13 +30,46 @@ tabs.forEach(tab =>
         {
             if (tab.textContent === tabContent.textContent)
             {
-                tab.classList.remove('active');
+                if (tab.textContent.includes("🕶️") || tab.textContent.includes("🔆"))
+                {
+
+                }
+                else
+                {
+                    tab.classList.remove('active');
+                }
             }
         });
         
-        const tabName = tab.textContent;
-        tabContent.textContent = tabName;
-		tab.classList.toggle('active');
+        if (tab.textContent.includes("🕶️") || tab.textContent.includes("🔆"))
+        {
+
+        }
+        else
+        {
+            const tabName = tab.textContent;
+            tabContent.textContent = tabName;
+            tab.classList.toggle('active');
+        }
     });
+});
+
+const switchLink = document.querySelector("#switch");
+const body = document.querySelector("body");
+
+switchLink.addEventListener("click", () => 
+{
+	if (switchLink.textContent.includes("🕶️")) 
+    {
+		body.style.background = "#000";
+		body.style.color = "#fff";
+		switchLink.textContent = "🔆";
+	} 
+    else 
+    {
+		body.style.background = "#eee";
+		body.style.color = "#000";
+		switchLink.textContent = "🕶️";
+	}
 });
 
