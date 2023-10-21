@@ -21,7 +21,7 @@ header
     margin-bottom:-5px;
 }
 
-img
+header img
 {
     
     padding-left: 10%;
@@ -196,4 +196,33 @@ li a:active, li a:visited
 li a:hover
 {
 	color: red;
+}
+
+.hero
+{
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+.hero img 
+{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    width: 100%;
+    height: auto;
+}
+
+.tepname
+{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+picture
+{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
