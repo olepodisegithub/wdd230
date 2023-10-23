@@ -56,7 +56,6 @@ nav a
     font-size:180%;
     text-decoration: none;
 	color: #363535;
-
 }
 
 li
@@ -176,3 +175,18 @@ li a:hover
 {
 	color: red;
 }
+
+pucture img 
+{
+    width: 100%;
+    height: auto;
+}
+
+#events, #weather, #div1, #div2, #div3
+    {
+        border-width: 1px;
+        margin-top: 10px;
+        border-style: solid;
+        border-color:white;
+        background-color: gainsboro;
+    }

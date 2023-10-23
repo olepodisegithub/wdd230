@@ -22,7 +22,7 @@
 <body>
     <h2>Home</h2>
     <header>
-        <img src="images/logo.png" alt="chamber's logo">
+        <img src="images/logo.webp" alt="chamber's logo">
         <h1>Gaborone, Botswana Chamaber of Commerce Website</h1>
     </header>
     <nav>
@@ -35,29 +35,50 @@
     </nav>
     <main>
         
-        <img src="images/gaborone.jpeg" alt="picture of builings in Gaborone">
+        <picture>
+            <source srcset="images/gaborone-small.webp" media="(max-width: 500px)">
+            <source srcset="images/gaborone-medium.webp" media="(max-width: 1000px)">
+            <img src="images/gaborone-large.webp" alt="picture of builings in Gaborone" width="1500" height="750">
+        </picture>
+
         <a href="#">Join the chamber</a>
             
         <div id="events">
             <h1>Events</h1>
+            <h4>City cleaning campaign</h4>
+            <h5>Please join us as we clean the city to make it a better place to invest in</h5>
+            <h5>If you are interested in helping out, contact: 74254875 fro more information</h5>
             <p></p>
         </div>
         <div id="weather">
             <h1>Weather</h1>
+            <h4 id="windchill">windchill</h4>
             <p></p>
         </div>
         
         <h1>Member Spotlight</h1>
         
-        <div id="div1">Sport light 1</div>
-        <div id="div2">Sport light 2</div>
-        <div id="div3">Sport light 3</div>
+        <div id="div1">
+            <h4>Rubbish Cleaners</h4>
+            <h5>We do it for you</h5>
+            <h5>Contacts: 75235566</h5>
+        </div>
+        <div id="div2">
+            <h4>Gaborone Football Tornament</h4>
+            <h5>Come lets play together</h5>
+            <h5>For more Info: 71425879</h5>
+        </div>
+        <div id="div3">
+            <h4>Blood Donation Drive</h4>
+            <h5>Save Lives</h5>
+            <h5>To Donate Contact: 76254874</h5>
+        </div>
         
     </main>
     
     <Footer>
         <div>
-            <img src="images/gaborone-logo.jpg" alt="chamber's logo">
+            <img src="images/gaborone-logo.webp" alt="chamber's logo">
         </div>
         <div>
             <p id="copyright">
@@ -72,6 +93,7 @@
     </Footer>
 
     <script src="scripts/chamber-script.js"></script>
+    <script src="scripts/windchill.js"></script>
     
 </body>
 </html>
