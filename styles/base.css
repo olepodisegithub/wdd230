@@ -229,3 +229,15 @@ picture
     grid-column: 1 / 2;
     grid-row: 1 / 2;
 }
+
+#windchill
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#visits
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
