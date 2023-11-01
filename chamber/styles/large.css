@@ -119,5 +119,36 @@
         overflow: hidden;
         width: 100%;
     }
+
+
+
+    /*For Discovery page*/
+
+    #discover-main
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+    }
+
+    #rightside
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    #leftside
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }     
+
+    .leftsideimg:hover 
+    {
+        box-shadow: 0 0 50px #333;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgb(9, 44, 242);
+    }
     
 }

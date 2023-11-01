@@ -183,10 +183,42 @@ pucture img
 }
 
 #events, #weather, #div1, #div2, #div3
-    {
-        border-width: 1px;
-        margin-top: 10px;
-        border-style: solid;
-        border-color:white;
-        background-color: gainsboro;
-    }
+{
+    border-width: 1px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color:white;
+    background-color: gainsboro;
+}
+
+/* For discover page */
+
+section
+{
+    border-style: solid;
+    border-color: rgb(220, 213, 213);
+}
+
+.info
+{
+    border-style: solid;
+    border-color: rgb(220, 213, 213);
+}
+
+#discover-main
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#leftside
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#leftsideimg
+{
+    width: 100%;
+    height: auto;
+}
