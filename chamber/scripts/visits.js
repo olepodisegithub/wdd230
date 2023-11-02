@@ -1,13 +1,13 @@
 const webvisits = document.getElementById("visits");
 
-let latestDateVisit = Number(window.localStorage.getItem("latest-date-visit")) || Date.now();
-let visitsCount = Number(window.localStorage.getItem("visits")) || 0;
+let latestDateVisit = Number(window.localStorage.getItem("visit-date")) || Date.now();
+let visitsCount = Number(window.localStorage.getItem("visits-count")) || 0;
 
 if (visitsCount !== 0) 
 {
 	if (latestDateVisit.Date === Date.now().Date)
 	{
-		webvisits.textContent = `Back so soon! Awesome!`;
+		webvisits.textContent = `${visitsCount} visits. Back so soon! Awesome!`;
 	}
 	else
 	{
@@ -23,6 +23,11 @@ else
 
 visitsCount++;
 
-localStorage.setItem("visits", visitsCount);
+localStorage.setItem("visits-count", visitsCount);
+if (visitsCount === 1)
+{
+	localStorage.setItem("visit-date", visitsCount);
+}
+
 
 

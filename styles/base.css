@@ -128,7 +128,7 @@ footer
 
 #copyright::after 
 {
-    content: url("/images/botswana-flag-icon.png");
+    content: url("/images/botswana-flag-icon.webp");
 }
 
 #menu 

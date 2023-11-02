@@ -101,7 +101,7 @@ div img
 
 #copyright::after 
 {
-    content: url("/images/botswana-flag-icon.png");
+    content: url("/images/botswana-flag-icon.webp");
 }
 
 #menu 
@@ -193,12 +193,6 @@ pucture img
 
 /* For discover page */
 
-section
-{
-    border-style: solid;
-    border-color: rgb(220, 213, 213);
-}
-
 .info
 {
     border-style: solid;
@@ -215,10 +209,21 @@ section
 {
     display: flex;
     flex-direction: column;
+
+    border-style: solid;
+    border-color: rgb(220, 213, 213);
 }
 
 #leftsideimg
 {
     width: 100%;
     height: auto;
+
+    border-style: solid;
+    border-color: rgb(220, 213, 213);
+}
+
+.info h2, .info p
+{
+    padding-left: 10px;
 }
