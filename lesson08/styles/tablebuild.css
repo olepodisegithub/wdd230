@@ -1,0 +1,52 @@
+:root
+{
+    --border1: hsla(230, 100%, 1%, 0.895);
+    --backcolor1: hsl(228, 100%, 1%);
+    --backcolor2: hsla(0, 1%, 33%, 0.454);
+    --fontcolor: hsl(0, 20%, 98%);
+    --border2: hsl(0, 1%, 59%);
+    --zebracolor: hsl(210, 94%, 50%);
+}
+
+body 
+{
+	font-family: "Ubuntu", Arial, serif;
+}
+table 
+{
+	margin: 20px auto;
+	border: thin solid var(--border1);
+    text-align: center;
+    border-collapse: collapse;
+}
+caption 
+{
+    padding: 10px;
+    caption-side: bottom;
+}
+
+#colgroup
+{
+    background-color: var(--backcolor1);
+    color: var(--fontcolor);
+}
+
+.subcol
+{
+    background-color: var(--backcolor2);
+    color: var(--fontcolor);
+}
+
+thead tr td
+{
+    background-color: var(--backcolor1);
+}
+
+th, td 
+{
+	padding: 7px 15px;
+	border: 1px solid var(--border2);
+}
+tbody tr:nth-child(odd) {
+	background-color: var(--zebracolor);
+}
