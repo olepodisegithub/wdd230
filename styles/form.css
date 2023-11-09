@@ -1,0 +1,69 @@
+form fieldset
+{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form label
+{
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+form label input
+{
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+#rangevalues option 
+{
+	flex: 1 1 auto;
+}
+
+#rangevalues 
+{
+	display: flex;
+	margin: 0 0 0 20px;
+	width: 200px;
+}
+
+form input.submitBtn
+{
+    border: none;
+    background-color: rgb(12, 35, 241);
+    color:white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+#message
+{
+    color: red;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+#recordmessage
+{
+    color: red;
+    font-size: 2rem;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
