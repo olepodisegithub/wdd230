@@ -227,3 +227,124 @@ pucture img
 {
     padding-left: 10px;
 }
+
+/* for the join form */
+
+.joinfieldsets
+{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+.japplicant, .jmembership
+{
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+.japplicant input, .japplicant textarea
+{
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+#rangevalues option 
+{
+	flex: 1 1 auto;
+}
+
+.joinfieldsets .jmembership input
+{
+	margin-right: 5px;
+}
+
+#jsubmitBtn
+{
+    border: none;
+    background-color: rgb(41, 147, 213);
+    color:white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+/* table css */
+
+:root
+{
+    --border1: hsla(230, 100%, 1%, 0.895);
+    --backcolor1: hsl(228, 100%, 1%);
+    --backcolor2: hsla(0, 1%, 33%, 0.454);
+    --fontcolor: hsl(0, 20%, 98%);
+    --border2: hsl(0, 1%, 59%);
+    --zebracolor: hsl(210, 3%, 14%);
+}
+
+body 
+{
+	font-family: "Ubuntu", Arial, serif;
+}
+table 
+{
+	margin: 10px auto;
+    max-width: 100px;
+	border: thin solid var(--border1);
+    text-align: center;
+    border-collapse: collapse;
+}
+caption 
+{
+    padding: 10px;
+    caption-side: bottom;
+}
+
+#colgroup
+{
+    background-color: var(--backcolor1);
+    color: var(--fontcolor);
+}
+
+.subcol
+{
+    background-color: var(--backcolor2);
+    color: black;
+}
+
+thead tr td
+{
+    background-color: var(--backcolor1);
+    color: var(--fontcolor);
+}
+
+th, td 
+{
+	padding: 7px 15px;
+	border: 1px solid var(--border2);
+}
+tbody tr:nth-child(odd) {
+	background-color: var(--zebracolor);
+    color: white;
+}
+
+#recordmessage
+{
+    color: red;
+    font-size: 2rem;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+}

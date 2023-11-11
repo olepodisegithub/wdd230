@@ -73,3 +73,7 @@ switchLink.addEventListener("click", () =>
 	}
 });
 
+/* join form scripts */
+
+const jloadtime = document.getElementById("loadtime");
+jloadtime.value = new Date();

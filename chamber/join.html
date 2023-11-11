@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaborone, Botswana Chamber of Commerce</title>
+    <meta name="description" content="Gaborone, Botswana Chmaber of Commerce Website">
+    <meta name="author" content="Oaitse Lepodise">
+
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="Gaborone, Botswana Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://scontent.fgbe3-1.fna.fbcdn.net/v/t39.30808-6/212386556_4149224788526904_7159172398816551630_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=52f669&_nc_eui2=AeFQau42CiQpXSvVhzlCqn9klyDFFEm8ip2XIMUUSbyKnQSNabL4XwB4oq1AYA2UX1w&_nc_ohc=Ls9ViSnz3REAX9eqhqg&_nc_zt=23&_nc_ht=scontent.fgbe3-1.fna&oh=00_AfCb7om8uK5HIbXgWO061IjWDK9YcChKVbXoXNWpTXh4-Q&oe=6528118B">
+    <meta property="og:url" content="https://olepodisegithub.github.io/wdd230/">
+    
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu">
+    <link rel="icon" href="images/chamber-favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <h2>Home</h2>
+    <header>
+        <img src="images/logo.webp" alt="chamber's logo">
+        <h1>Gaborone, Botswana Chamaber of Commerce Website</h1>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <a href="#" class="active">Home</a>
+        <a href="discover.html">Discovery</a>
+        <a href="/">Directory</a>
+        <a href="#">Join</a>
+        <a href="#" id="switch">🕶️</a>
+    </nav>
+    <main>
+        <form method="get" action="thankyou.html">
+            <fieldset class="joinfieldsets">
+                <legend>Applicant's Details</legend>
+                <label class="japplicant">First Name*<input type="text" id="jfirstname" name="firstname" placeholder="first name" required></label>
+                <label class="japplicant">Last Name*<input type="text" id="jlastname" name="lastname" placeholder="last name" required></label>
+                <label class="japplicant">Title/ Position*<input type="text" id="jtitle" name="title" placeholder="title/ position" pattern="[a-zA-Z -]" title="alpha characters, hyphens, and spaces with a minimum of seven characters" required></label>
+                <label class="japplicant">Email Address*<input type="email" id="jemail" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="japplicant">Mobile Phone Number*<input type="tel" id="jmobile" name="mobile" placeholder="mobile phone number" required></label>
+                <label class="japplicant">Business/ Organization's name*<input type="text" id="jfromname" name="fromname" placeholder="Business/ Organization's name" required></label>
+                <label class="japplicant">Business/ Organization's description<textarea id="jdescription" name="description" rows="4" cols="50" placeholder="Business/ Organization's description"></textarea></label>
+            </fieldset>
+
+            <fieldset class="joinfieldsets">
+                <legend>Membership Level</legend>
+                <label class="jmembership"><input type="radio" name="membership" value="NP Membership">NP Membership</label>
+                <label class="jmembership"><input type="radio" name="membership" value="Bronze Membership">Bronze Membership</label>
+                <label class="jmembership"><input type="radio" name="membership" value="Silver Membership">Silver Membership</label>
+                <label class="jmembership"><input type="radio" name="membership" value="Gold Membership">Gold Membership</label>
+            </fieldset>
+
+            <input type="submit" value="Join the chamber" id="jsubmitBtn">
+            <input id="loadtime" type="hidden" name="loadtime">
+
+        </form>
+
+        <table>
+            <caption>Membership Levels Benefits</caption>
+            <thead>
+                <tr>
+                    <th colspan="5" scope="colgroup" id="colgroup">Membership Levels</th>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <th scope="col" class="subcol">NP Membership</th>
+                    <th scope="col" class="subcol">Bronze Membership</th>
+                    <th scope="col" class="subcol">Silver Membership</th>
+                    <th scope="col" class="subcol">"Gold Membership</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Subscription</td>
+                    <td>P100.00</td>
+                    <td>P250.00</td>
+                    <td>P750.00</td>
+                    <td>P1 500.00</td>
+                </tr>
+                <tr>
+                    <td>Special events</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Training</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Event discounts</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Business referrals</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Ribbon cuttings</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Electronic newsletter</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Informational webinars</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+    
+    <Footer>
+        <div>
+            <img src="images/gaborone-logo.webp" alt="chamber's logo">
+        </div>
+        <div>
+            <p id="copyright">
+            </p>
+    
+            <p id="myname">
+            </p>
+    
+            <p id="lastModified">
+            </p>
+        </div>
+    </Footer>
+
+    <script src="scripts/chamber-script.js"></script>
+    
+</body>
+</html>
