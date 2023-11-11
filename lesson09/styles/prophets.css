@@ -1,0 +1,61 @@
+header,
+main,
+footer 
+{
+  margin: 1rem;
+  position: relative;
+}
+
+h3 
+{
+    color: #000;
+    border-bottom: 1px solid #eee;
+    text-shadow: 0 0 15px #777;
+}
+
+h6 
+{
+    color: #333;
+    margin: 7px 0 5px 0;
+}
+
+section 
+{
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: #eee;
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img 
+{
+    width: auto;
+    max-width: 325px;
+    box-shadow: 0 0 30px #777;
+    height: 200px;
+    border: 1px solid #333;
+}
+
+#cards 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+h1
+{
+    text-align: center;
+}
+
+h1,h3
+{
+    color:blue
+}
+
+footer
+{
+    text-align: center;
+}

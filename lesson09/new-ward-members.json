@@ -1,0 +1,31 @@
+{
+   "familyName" : "Lepodise",
+   "movedInDate" : "11/11/2023",
+    "numberOfPeople" : 4,
+    "visitedByBishopric" : true,
+    "familyMembers" : 
+    [
+        {
+            "name" : "Oaitse",
+            "gender" : "Male",
+            "birthDate" : "29/12/1986"
+        },
+        {
+            "name" : "Ntsebo",
+            "gender" : "Female",
+            "birthDate" : "19/01/1990"
+        }
+        ,
+        {
+            "name" : "Thabelo Gift",
+            "gender" : "Female",
+            "birthDate" : "22/04/2017"
+        }
+        ,
+        {
+            "name" : "Bonolo Nolitha",
+            "gender" : "Female",
+            "birthDate" : "03/11/2020"
+        }
+    ]
+}
