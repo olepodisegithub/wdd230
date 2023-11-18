@@ -48,12 +48,6 @@
      
      /* directory css */
     /*grid style*/
-    #cards
-    {
-        display:flexbox;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
 
     .grid 
     {
