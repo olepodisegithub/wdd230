@@ -14,11 +14,11 @@
     <meta property="og:url" content="https://olepodisegithub.github.io/wdd230/">
     
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu">
     <link rel="icon" href="images/chamber-favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/large.css">
-    <link rel="stylesheet" href="styles/medium.css">
 </head>
 <body>
     <h2>Home</h2>
@@ -34,47 +34,16 @@
         <a href="join.html">Join</a>
         <a href="#" id="switch">🕶️</a>
     </nav>
+    <div id="buttons">
+        <button id="grid">⏹️Grid</button>
+		<button id="list">📄List</button>
+    </div>
+    
     <main>
-        
-        <picture>
-            <source srcset="images/gaborone-small.webp" media="(max-width: 500px)">
-            <source srcset="images/gaborone-medium.webp" media="(max-width: 1000px)">
-            <img src="images/gaborone-large.webp" alt="picture of builings in Gaborone" width="1500" height="750">
-        </picture>
+        <!-- <div id="cards"></div> -->
+        <article id="cards" class="grid">
 
-        <a href="join.html">Join the chamber</a>
-            
-        <div id="events">
-            <h1>Events</h1>
-            <h4>City cleaning campaign</h4>
-            <h5>Please join us as we clean the city to make it a better place to invest in</h5>
-            <h5>If you are interested in helping out, contact: 74254875 fro more information</h5>
-            <p></p>
-        </div>
-        <div id="weather">
-            <h1>Weather</h1>
-            <h4 id="windchill">windchill</h4>
-            <p></p>
-        </div>
-        
-        <h1>Member Spotlight</h1>
-        
-        <div id="div1">
-            <h4>Rubbish Cleaners</h4>
-            <h5>We do it for you</h5>
-            <h5>Contacts: 75235566</h5>
-        </div>
-        <div id="div2">
-            <h4>Gaborone Football Tornament</h4>
-            <h5>Come lets play together</h5>
-            <h5>For more Info: 71425879</h5>
-        </div>
-        <div id="div3">
-            <h4>Blood Donation Drive</h4>
-            <h5>Save Lives</h5>
-            <h5>To Donate Contact: 76254874</h5>
-        </div>
-        
+        </article>
     </main>
     
     <Footer>
@@ -94,7 +63,5 @@
     </Footer>
 
     <script src="scripts/chamber-script.js"></script>
-    <script src="scripts/windchill.js"></script>
-    
 </body>
 </html>

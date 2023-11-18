@@ -1,4 +1,4 @@
-@media screen and (min-width: 501px) and (max-width: 1000px)
+@media screen and (min-width: 501px) and (max-width: 750px)
 {    
     main
     {
@@ -44,6 +44,74 @@
      {
          grid-column: 2 / 3;
          grid-row: 1 / 2;
-     }     
+     }
+     
+     /* directory css */
+    /*grid style*/
+    #cards
+    {
+        display:flexbox;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .grid 
+    {
+        display: contents;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+        grid-gap: 5px;
+        align-items: center;
+    }
+
+    .grid section 
+    {
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 0.5rem;
+        background-color: #eee;
+        width: 340px;
+        height: auto;
+        margin: auto;
+    }
+
+    .grid img 
+    {
+        border: 1px solid #fff;
+        box-shadow: 0 0 10px #333;
+        height: auto;
+        max-width: 100%; 
+    }
+
+    .grid section > * 
+    {
+        margin: 0.1rem;
+    }
+
+    /*list style*/
+    .list {
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+
+    .list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin: 0;
+        padding: 0.25rem;
+    }
+
+    .list section > * {
+        margin: 0 1rem;
+    }
+
+    .list section img {
+        display: none; 
+    }
+
+    .list section:nth-child(even) {
+        background-color: #bed;
+    }  
 
 }
