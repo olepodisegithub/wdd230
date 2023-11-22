@@ -7,7 +7,7 @@
         "phoneNumber": "+267 391 9522",
         "websiteURL": "http://www.kfc.com",
         "image": "_1608231461-11-kfc-game-city-mall.webp",
-        "membershipLevel": "",
+        "membershipLevel": "NP Membership",
         "reviewRate": "2.0"
       }
       ,
@@ -17,7 +17,7 @@
         "phoneNumber": "+267 395 2901",
         "websiteURL": "https://www.pgglassafrica.com/gaborone/",
         "image": "_1608662157-21-pg-glass-pty-ltd.webp",
-        "membershipLevel": "",
+        "membershipLevel": "NP Membership",
         "reviewRate": "0.0"
       }
       ,
@@ -27,7 +27,7 @@
         "phoneNumber": "+267 395 7814",
         "websiteURL": "https://www.facebook.com/elitephysiotherapyclinic/",
         "image": "_1611074417-99-elite-physiotherapy-clinic.webp",
-        "membershipLevel": "",
+        "membershipLevel": "Bronze Membership",
         "reviewRate": "4.0"
       }
       ,
@@ -37,7 +37,7 @@
         "phoneNumber": "+267 390 3311",
         "websiteURL": "http://www.targetaccess.co.za/",
         "image": "_1515527482-80-target-music-supply.webp",
-        "membershipLevel": "",
+        "membershipLevel": "Bronze Membership",
         "reviewRate": "0.0"
       }
       ,
@@ -47,7 +47,7 @@
         "phoneNumber": "37067685973",
         "websiteURL": "https://immigration.eu.com",
         "image": "_1579945335-92-invest-holding.webp",
-        "membershipLevel": "",
+        "membershipLevel": "Silver Membership",
         "reviewRate": "0.0"
       }
       ,
@@ -57,7 +57,7 @@
         "phoneNumber": "+267 396 9996",
         "websiteURL": "#",
         "image": "_1593367657-89-nmcj-international.webp",
-        "membershipLevel": "",
+        "membershipLevel": "Silver Membership",
         "reviewRate": "5.0"
       }
       ,
@@ -67,7 +67,7 @@
         "phoneNumber": "+267 318 0422",
         "websiteURL": "http://www.tkm.co.bw",
         "image": "_1610385822-31-tkm-engineering-pty-ltd.webp",
-        "membershipLevel": "",
+        "membershipLevel": "Gold Membership",
         "reviewRate": "5.0"
       }
     ]
