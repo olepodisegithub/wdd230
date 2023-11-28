@@ -155,13 +155,8 @@
         "links": 
         [
           {
-            "url":"",
-            "title":""
-          }
-          ,
-          {
-            "url":"",
-            "title":""
+            "url":"lesson10/weather.html",
+            "title":"Consuming a Weather API"
           }
         ]
       }
